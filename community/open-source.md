@@ -30,8 +30,7 @@ CloudEvents, please include in the list below.
   [Envoy Proxy](https://envoyproxy.io/) by [Solo.io](https://www.solo.io/) that
   supports CloudEvents.
 - [Dispatch](https://github.com/vmware-archive/dispatch): is a function
-  framework / gateway by [VMWare](https://vmware.github.io/dispatch/) that
-  support CloudEvents.
+  framework / gateway by VMware that support CloudEvents.
 - [cloudevents-python](https://github.com/williamhogman/cloudevents-python): A
   CloudEvents library for python.
 - [CloudEvents.live](https://cloudevents.live/): A real-time debugger/request
