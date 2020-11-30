@@ -189,7 +189,7 @@ for file in ${mdFiles}; do
 
       try=0
       while true ; do
-        if curl -f -s -k --connect-timeout 10 ${ref} > /dev/null 2>&1 ; then
+        if curl -X HEAD -f -s -k --connect-timeout 10 ${ref} > /dev/null 2>&1 ; then
           break
         fi
         let try=try+1
